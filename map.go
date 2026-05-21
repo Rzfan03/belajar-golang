@@ -13,14 +13,21 @@ func main() {
 	// fmt.Println(person["Alamat"])
 	// fmt.Println(person)
 
-	book := make(map[string]string)
-	book["title"] = "Belajar Golang!"
-	book["author"] = "Rzfan03"
+	// book := make(map[string]string)
+	// book["title"] = "Belajar Golang!"
+	// book["author"] = "Rzfan03"
 
 
-	fmt.Println(book)
+	// fmt.Println(book)
+	// fmt.Println(book)
 
+	var book = map[string] int {
+		"si kancil": 10,
+		"si marzuki": 20,
+		"si sugiono": 30,
+	}
 
-	delete(book, "author")
-	fmt.Println(book)
+	for key, val := range book {
+		  fmt.Println(key, "  \t:", val)
+	}
 }
