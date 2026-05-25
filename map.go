@@ -27,7 +27,6 @@ func main() {
 		"si sugiono": 30,
 	}
 
-	for key, val := range book {
-		  fmt.Println(key, "  \t:", val)
-	}
+	delete(book, "si kancil")
+	fmt.Print(book)
 }
