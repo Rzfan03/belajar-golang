@@ -21,5 +21,5 @@ func main() {
 
 	fmt.Print(cap(slice2))
 
-	fmt.Println("Tambah Data baru?")
+	fmt.Println("\nTambah Data baru?")
 }
